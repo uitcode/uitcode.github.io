@@ -1,5 +1,5 @@
 // Scroll reveal calls
-window.sr = ScrollReveal();
+window.sr = ScrollReveal({ reset: true });
 
 sr.reveal('.slide-icon-1', {
   delay: 200,
